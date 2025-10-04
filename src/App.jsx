@@ -111,7 +111,7 @@ function App() {
       <div className="flex flex-col items-center">
         <h1 className="text-2xl text-cyan-400 font-bold mb-[20px]">Detection by BKDR</h1>
         <video ref={videoRef} style={{ display: "none" }} />
-        <canvas ref={canvasRef} className="border-1 border-cyan-400" width="640" height="480" />
+        <canvas ref={canvasRef} className="border-1 border-cyan-400 w-full max-w-[640px]" width="640" height="480" />
         <p className="text-lg mt-3 text-yellow-300">{gesture}</p>
       </div>
 
